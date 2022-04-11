@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Hurricane&family=Kaushan+Script&family=Lavishly+Yours&family=Lobster&display=swap");
+
+.logo {
+  border-radius: 10px;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Dosis", sans-serif;
+  font-size: 10rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Dosis", sans-serif;
+}
+
+#navbardrop {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+}
+
+/* /---------------------------------------------------------------------? */
+
+/* Buttons */
+
+body {
+  /* Height is 100 percent */
+  height: 100vh;
+  background-image: radial-gradient(
+    rgb(19, 18, 19),
+    rgb(12, 12, 12),
+    rgb(72, 70, 70)
+  );
+
+
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Scroll bars */
+/* width  of scroll bar*/
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track  */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle  bar background*/
+::-webkit-scrollbar-thumb {
+  background: rgb(4, 3, 3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: goldenrod;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges. */
+.container {
+  width: 85%;
+  margin: auto;
+  height: 80vh;
+  padding: 33px;
+  overflow-y: auto;
+  /* /for scroll */
+  margin-bottom: 20px;
+  border-radius: 50px;
+
+  border: 15px solid hsla(0, 0%, 100%, 0.5);
+  background-image: url("Bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+/* Yhaa Animation lgaa denge  */
+}
+
+
+.container-fluid {
+  margin-top: -60px;
+  padding: 7% 15%;
+}
+
+.main {
+  overflow: hidden;
+  height: 92vh;
+  display: flex;
+}
+
+
+.videos__group {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: red; */
+}
+
+video {
+  height: 450px;
+  border-radius: 3rem;
+  margin: 0.5rem;
+  width: 500px;
+  object-fit: cover;
+  transform: rotateY(180deg);
+   /* //Kyuki ulta aayega */
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  /* background-color: red; */
+}
+
+#video-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #f1f1f1; */
+}
+
+
+
+
+
+
+
+
+
+
+.social-icon {
+  margin: 15px 10px;
+}
+
+.options {
+  margin-top: -100px;
+  width: 80%;
+  display: grid;
+ margin-left: 75px;
+  /* border: 10px solid black; */
+  padding: 10px; 
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+
+  
+}
+
+.options__left {
+  display: flex;
+}
+
+.options__button {
+  
+  margin-left: 28%;
+  margin-right: 28%;
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  /* border-radius: 40%; */
+  /* background-color: blue */
+}
+
+.white
+{
+  color: aliceblue;
+}
+
+.blue
+{
+  color: blue;
+}
+.red
+{
+  color:red;
+}
+
+.green
+{
+  color: green;
+}
+
+
+
+
+
