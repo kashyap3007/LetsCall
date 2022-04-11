@@ -7,7 +7,7 @@ Tools used:
 
 =>Socket.io
 
-=>HTML , CSS , Bootstrap
+=>Embedded Javascript Templating(EJS) , CSS , Bootstrap
 
 =>Peer , uuid
 
